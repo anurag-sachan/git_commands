@@ -1,3 +1,8 @@
+>> Some important git CLI commands.
+-> Put in some efforts and learn yourself. >> 
+-> (Advise) Learn in order >>
+
+
 git init
 
 git add* / git add <file.extension>
@@ -52,4 +57,9 @@ git branch -D <branch name> (to remove branch from local)
 
 git push origin -d <branch name> (to remove branch from repo)
 
-Git reset --hard (reset to start)
+git reset --hard (reset to start)
+
+(if commit author is behaving wierd i.e. Name authored and Name commited)
+git config --global user.name "firstName lastName"
+
+git config --global user.email "email@example.com" 
