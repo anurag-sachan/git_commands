@@ -34,6 +34,8 @@ git branch
 
 git branch merge
 
+Git pull origin <branch> (if you have done something manually in GitHub)
+
 git pull upstream main
 
 	git fetch --all --prune
@@ -49,3 +51,5 @@ git push origin main -f
 git branch -D <branch name> (to remove branch from local)
 
 git push origin -d <branch name> (to remove branch from repo)
+
+Git reset --hard (reset to start)
