@@ -1,0 +1,51 @@
+git init
+
+git add* / git add <file.extension>
+
+git status
+
+git stash
+
+git stash pop
+
+git stash clear
+
+git commit -m "message"
+
+git log
+
+git restore --staged <file.extension>
+
+	git rm --cached <file.extension>
+
+git clone <HTML>
+
+git remote add origin <HTML>
+
+git remote add upstream <HTML>
+
+git remote -v
+
+git branch <name>
+
+git checkout <name>
+
+git branch 
+
+git branch merge
+
+git pull upstream main
+
+	git fetch --all --prune
+
+	git reset --hard upstream/main
+
+git push origin main(or any branch in repo)
+
+git reset #<hash from git log>
+
+git push origin main -f
+
+git branch -D <branch name> (to remove branch from local)
+
+git push origin -d <branch name> (to remove branch from repo)
