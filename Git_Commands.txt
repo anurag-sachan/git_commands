@@ -23,11 +23,13 @@ git restore --staged <file.extension>
 
 	git rm --cached <file.extension>
 
-git clone <HTML>
+git clone <URL>
 
-git remote add origin <HTML>
+git remote add origin <URL>
 
-git remote add upstream <HTML>
+Git remote set-url origin <URL>
+
+git remote add upstream <URL>
 
 git remote -v
 
@@ -59,7 +61,7 @@ git push origin -d <branch name> (to remove branch from repo)
 
 git reset --hard (reset to start)
 
-(if commit author is behaving wierd i.e. Name authored and Name commited)
+(if commit author is behaving weird i.e. Name authored and Name committed)
 git config --global user.name "firstName lastName"
 
 git config --global user.email "email@example.com" 
