@@ -37,6 +37,8 @@ git branch <name>
 
 git checkout <name>
 
+git checkout -b <new branch name> (creates & switch to new branch)
+
 git branch 
 
 git branch merge
